@@ -44,7 +44,7 @@ a {
     color: green;
 }
 main {
-    background-color:rgb(214, 227, 232);
+    background-color:#E5E4E2;
 }
 .container {
     display: flex;
@@ -164,7 +164,7 @@ h2 {
     margin-right: 50px;
     height:600px;
     width:50%;
-    background-image: url(leaf2.jpeg);
+    background-image: url(leafnew.webp);
     background-size: cover;
 }
 #subscribe {
@@ -266,7 +266,87 @@ nav {
     justify-content: space-around;
 }
 .nav_section {
-    color: orange;
+    color: orange; 
     font-size: 30px;
     font-family: cursive;
+}
+@media (min-width:313px) and (max-width:900px) {
+    header {
+        height:600px;
+        width:900px;
+        background-image: url("mountain2.avif");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-content: end;
+    
+    }
+    p {
+        color: #e0992e;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        font-size: 20px;
+        text-align:center;
+        position: relative;
+        right:100px;
+    }
+    main {
+        background-color:#E5E4E2;
+        width:900px;
+    }
+    .container1 {
+        display: flex;
+        flex-direction: column;
+    }
+    #content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    #article {
+        color: #857885;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 95px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    input {
+        width:280px
+    }
+    nav {
+        background-color: black;
+        width:900px;
+        height:40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .eco_time {
+        font-size: 10px;
+        text-align: left;
+    }
+    #content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #subscribe {
+        width:90%
+    }
+    #wrapper {
+        grid-gap:1em;
+    }
+    #last {
+        display: grid;
+        grid-gap: 3em;
+    }
+    #pic {
+        width:100%;
+        height:500px
+    }
 }
